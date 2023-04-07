@@ -8,3 +8,5 @@ The about.html file lets viewers know what other activities I have besides work.
 The portfolio.html file showcases my website projects that demonstrate my proficiency in HTML, CSS, and Javascript.
 The style.css file contains the CSS properties the html files use.
 The javascript.js file has the javascript code which only prints "Hello World" to the runtime console.
+
+This project is developed and maintained by Tuan Thai as a project for Fullstack Academy x Amazon Career Choice Web Development part time nine month Boot Camp.
