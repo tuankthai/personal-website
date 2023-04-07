@@ -1,19 +1,43 @@
-
-
-h1{
+h1 {
     text-align: center;
 }
+
 .tabs {
     background-color: powderblue;
     font-weight: 200;
-    height: 2.5em;
-    float: right;
+    height: 1.5em;
+    font-size: 32px;
+    font-family: sans-serif;
 }
+
 #logo {
-    color:aqua;
+    /* color:aqua; */
     font-weight: 200;
+    font-size: 32px;
+    font-family: sans-serif;
     /* margin: ; */
     /* padding: 0.5rem 1.5rem 0 1.5rem; */
     /* box-shadow: 0 0 20px 10px rgb(0, 0, 0, 0.2); */
 }
 
+.nav_right {
+    float: right;
+}
+
+h2 {
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+#intro {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+#intro_hd {
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
