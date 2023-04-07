@@ -46,6 +46,10 @@ section {
     display: block;
     
 }
-.nextline{
-    
+.frame1{
+margin: 20px;
+margin-right: 60px;
+}
+.frame_garden{
+    margin: 30px 40px 50px 60px;    
 }
