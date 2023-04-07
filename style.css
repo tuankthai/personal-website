@@ -44,17 +44,35 @@ h2 {
 
 section {
     display: block;
-    
-}
-.frame1{
-margin: 20px;
-margin-right: 60px;
-}
-.frame_garden{
-    margin: 30px 40px 50px 60px;    
+
 }
 
-.line{
+.frame1 {
+    margin: 20px;
+    margin-right: 60px;
+}
+
+.frame_garden {
+    margin: 0px 40px 50px 20px;
+   
+}
+
+.blank_lines {
+    height: 100px;
+    background: white;
+}
+
+.line {
     height: 1.2px;
     background: black;
+}
+
+footer {
+    text-align: center;
+    /* background-color: #dfe3ee; */
+    /* padding: 1.2em; */
+    font-size: 1.2em;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight:500;
 }
