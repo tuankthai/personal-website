@@ -53,3 +53,8 @@ margin-right: 60px;
 .frame_garden{
     margin: 30px 40px 50px 60px;    
 }
+
+.line{
+    height: 1.2px;
+    background: black;
+}
