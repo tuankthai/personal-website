@@ -5,6 +5,6 @@ This is Tuan Thai's Personal Website.  This website project has the following fi
 The README.md file gives an introduction about this website project.
 The index.html file provides the viewers a mission statement about me.  
 The about.html file lets viewers know what other activities I have besides work.
-The portfolio.html file showcases my website projects that demostrate my proficiency in HTML, CSS, and Javascript.
+The portfolio.html file showcases my website projects that demonstrate my proficiency in HTML, CSS, and Javascript.
 The style.css file contains the CSS properties the html files use.
 The javascript.js file has the javascript code which only prints "Hello World" to the runtime console.
