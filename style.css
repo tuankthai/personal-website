@@ -5,17 +5,21 @@ h1 {
 .tabs {
     background-color: powderblue;
     font-weight: 200;
-    height: 1.5em;
-    font-size: 32px;
+    height: 1.5rem;
+    /* font-size: 32px; */
+    font-size: 1.8rem;
     font-family: sans-serif;
-    padding: 10px;
+    padding: 1.2rem;
+    /* padding: 10px; */
 }
 
 #logo {
     /* color:aqua; */
-    font-weight: 200;
-    font-size: 32px;
-    font-family: sans-serif;
+
+    /* font-weight: 200; */
+    /* font-size: 1.5em; */
+    /* font-family: sans-serif; */
+
     /* margin: ; */
     /* padding: 0.5rem 1.5rem 0 1.5rem; */
     /* box-shadow: 0 0 20px 10px rgb(0, 0, 0, 0.2); */
@@ -44,13 +48,15 @@ h2 {
 }
 
 #intro_hd {
-    font-size: 25px;
+    /* font-size: 25px; */
+    font-size: 1.5rem;
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
 }
 
 #intro_hd_bkgrd {
-    font-size: 25px;
+    /* font-size: 25px; */
+    font-size: 1.5rem;
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
     background-color: #CBC9AD;
@@ -70,7 +76,7 @@ section {
 
 .frame_garden {
     margin: 0px 40px 50px 10px;
-   
+
 }
 
 .blank_lines {
@@ -90,5 +96,5 @@ footer {
     font-size: 1.2em;
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
-    font-weight:500;
+    font-weight: 500;
 }
