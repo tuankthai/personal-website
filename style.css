@@ -107,15 +107,26 @@ footer {
     margin-left: 35%;
     margin-right: 35%;
     position: relative;
+    
+}
+
+.contact_div input{
+    background-color: blanchedalmond;
+}
+
+.contact_div textarea {
+    background-color: blanchedalmond;
 }
 
 .contact_div label {
     padding: 0.5rem;
+    /* background-color: blanchedalmond; */
 }
 
 .contact_div button {
     position: relative;
     margin: 10% 15% 10% 15%;
+    
 }
 
 a:hover {
@@ -175,8 +186,22 @@ a:hover {
     display: block;
     background-color: blueviolet;
     /* width: 2rem; */
-    color:white;
-    
-    
+    color:white;       
+}
 
+#portfolio_proj a {
+    color: #BDC667;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style:italic;
+}
+
+#contact_body {
+    
+    
+    background-color: #85C7DE;
+    
+    /* background-color: #A8D5E2 ; */
+    
+    /* rgb(132, 181, 159); */ 
+    /* background-color: rgb(163, 201, 168); */
 }
