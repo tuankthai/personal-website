@@ -45,6 +45,7 @@ h2 {
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
+    z-index: 1;
 }
 
 #intro_hd {
@@ -59,8 +60,8 @@ h2 {
     font-size: 1.5rem;
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
-    background-color: #CBC9AD;
-    margin: 0 60rem 0 1rem;
+    /* background-color: #CBC9AD; */
+    /* margin: 0 60rem 0 1rem; */
     /* color: white; */
 }
 
@@ -97,4 +98,113 @@ footer {
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
     font-weight: 500;
+}
+
+.contact_div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 35%;
+    margin-right: 35%;
+    position: relative;
+    
+}
+
+.contact_div input{
+    background-color: blanchedalmond;
+}
+
+.contact_div textarea {
+    background-color: blanchedalmond;
+}
+
+.contact_div label {
+    padding: 0.5rem;
+    /* background-color: blanchedalmond; */
+}
+
+.contact_div button {
+    position: relative;
+    margin: 10% 15% 10% 15%;
+    background: blanchedalmond;
+    
+}
+
+
+
+a:hover {
+    font-size: 2rem;
+}
+
+#portfolio_body {
+    background-image: url(./images/metaverse_1.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 0;
+}
+
+#index_body {
+    background-image: url(./images/Artificial_Intelligence.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+#index_footer {
+    margin-bottom: 50%;
+}
+
+#garden_bkgrd {
+    background-image: url(./images/garden_bkgrd.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* color: white; */
+    z-index: 0;
+}
+
+#swim_bkgrd {
+    background-image: url(./images/ocean_water_color.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* color: white; */
+    z-index: 0;
+
+}
+
+#portfolio_proj {
+    z-index: 1;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 0% 20% 0% 20%;
+}
+
+#portfolio_proj div{
+    /* padding: 5rem 5rem 5rem 5rem; */
+    /* border-color: blueviolet; */
+    display: block;
+    background-color: blueviolet;
+    /* width: 2rem; */
+    color:white;       
+}
+
+#portfolio_proj a {
+    color: #BDC667;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style:italic;
+}
+
+#contact_body {
+    
+    
+    background-color: #85C7DE;
+    
+    /* background-color: #A8D5E2 ; */
+    
+    /* rgb(132, 181, 159); */ 
+    /* background-color: rgb(163, 201, 168); */
 }

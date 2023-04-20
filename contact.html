@@ -5,12 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tuan Thai Personal Website</title>
+    <title>contact</title>
     <link rel="stylesheet" href="./style.css">
 </head>
 
-<body id="index_body">
-
+<body id="contact_body">
     <header>
         <nav class="tabs">
             <span id="logo">Tuan Thai</span>
@@ -28,20 +27,35 @@
         <!-- <h1>Home</h1> -->
     </header>
 
-    <p id="intro_hd">Web Developer, User Experience Expert</p>
-    <p id="intro">
-        Interested in building attractive, easy to navigate web sites.
-    </p>
+    <form id="form" action="">
 
-    <h2>"Web Development is fun and rich. I will take one step at a time. Solve one problem at a time. Eventually I will
-        be one of the best web developers."</h2>
+        <div class="contact_div">
 
-    <!-- <p class="blank_lines"></p> -->
+            <label for="fname">First Name:</label>
+            <input type="text" input="input">
 
-    <footer id="index_footer">
+            <label for="lname">Last Name:</label>
+            <input type="text" input="input">
+
+            <label for="email">Email: </label>
+            <input type="email" input="input">
+
+            <label for="msg">Message: </label>
+
+            <textarea name="message" id="msg" cols="30" rows="10"></textarea>
+
+            <button  id="submit"> Submit</button>
+
+        </div>
+
+    </form>
+
+    <footer>
         <p>&copy; 2023 My Personal Website. All rights reserved.</p>
     </footer>
     <script src="./javascript.js"></script>
+
+
 </body>
 
 </html>
